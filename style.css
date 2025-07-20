@@ -1,0 +1,48 @@
+div{
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: xx-large;
+    text-transform: capitalize;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+}
+ul{
+    display: flex;
+}
+.home{
+    list-style: none;
+}
+.project{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.tooltiptext{
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: -10px;
+    border-radius: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.0s;
+    
+    
+    /* z-index: 1; */
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+    }
+
+li{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
